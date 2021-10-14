@@ -1,0 +1,37 @@
+.header{
+    height: 100vh;
+}
+.texto_Animado{
+    width: 60%;
+    color: rgb(235 228 143) ;
+    padding-top:400px;
+}
+.historia{
+    width: 60%;
+    margin:500px auto;
+    padding-bottom: 20%;
+}
+.historia p{
+    font-size: 20px;
+    line-height: 25px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+@media only screen and (max-width: 574px){
+    .header{
+        height: 200px;
+    }
+    .historia{
+        width: 100%;
+        margin:60vh auto;
+        padding: 10%;
+    }
+    .texto_Animado{
+        width: 40%;
+        color: rgb(235 228 143) ;
+        padding-top:400px;
+    }
+}

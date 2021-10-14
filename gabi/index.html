@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <title>Typing Effect CSS</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.75);
+      }
+
+      .line {
+        border-right: 2px solid rgba(255, 255, 255, 0.75);
+        color: rgb(235 228 143); 
+        font-family: "Special Elite", monospace;
+        font-size: 3em;
+        text-align: center;
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .typing-animation {
+        animation: blinkCursor 500ms steps(40) infinite normal,
+          typing 4s steps(40) 1s normal both;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 16em;
+        }
+      }
+
+      @keyframes blinkCursor {
+        from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+        }
+        to {
+          border-right-color: transparent;
+        }
+      }
+    </style>
+    <header class="header">
+        <p class="line typing-animation texto_Animado">Para uma amiga muito especial...</p>
+        <section class="historia">
+          <h1>One shot limlendez com participação especial de serquel</h1>
+          <br>
+
+          <p>— Boa noite, galera!
+            <br>Lim se despediu antes de sair do bar, a mulher exibia um sorriso há muito desaparecido de seu rosto, o que não passou despercebido por Melendez. Ele não tirara os olhos dela naquela noite, uma vez que um certo mexicano com descendência americana não parava de observá-la e fazê-la rir. 
+            Neil percebia a admiração que brilhava nas íris azuis do homem, aquela era uma fascinação que ele conhecia muito bem, pois era a mesma que ele sentia.           
+            A equipe de médicos se divertia no bar, as gargalhadas eram constantes, o local era humilde como toda aquela região da Guatemala, mas a felicidade era algo que sobrava no ambiente. O grupo liderado pela doutora Lim e pelo doutor Mateo se alegrava enquanto bebia e relaxava depois de um dia agitado de cirurgias. Entretanto, diferente dos colegas, Melendez estava calado e não ria das piadas sem graça contadas por Park.
+            Embora houvesse tentado disfarçar, era constante os olhares que ele direcionava para  Audrey enquanto ela estava ali. Em seu interior, o médico desejava ser o homem que a acompanhava naquele bar, dividindo doses de uísque. Mas não era ele que a acompanhava, não era para ele que ela exibia seus melhores sorrisos, não era com ele que ela dividia o copo de uísque e não foi com ele que Audrey fora embora. 
+            Na verdade, ela havia partido sozinha, mas não demorou para que o mexicano a seguisse. Era nítido que ele estava interessado nela, visto que quase correrá atrás de Lim, com o intuito de alcançá-la.   
+            O coração de Melendez vacilava suas batidas enquanto seus pensamentos o perturbavam com a possibilidade de Audrey passar a noite com outro homem. Ele iria perdê-la oficialmente. Mas, na realidade, ele já havia a perdido muito antes disso. Deixou que seu orgulho fosse maior do que sua vontade de lutar pelo amor dela, era mais fácil combater a saudade que ele sentia de Lim bebendo garrafas de uísque sozinho enquanto cometia a estupidez de deixar com que ela se afastasse. Não aceitava a ideia de que ela houvesse terminado o namoro entre os dois, mesmo que as atitudes dele tivessem sido determinantes para que chegassem ao fim. Não fora fácil aceitar a ideia de que a  namorada também fosse sua chefe. Ele era orgulhoso demais para respeitá-la, vivia teimando, desobedecendo-a, sendo um babaca, como ela costumava falar. Como consequência disso, a perdera. E, ao invés de tentar lutar para reconquistá-la, ele deixou que ela passasse por aquela maldita porta. E, desde então, por mais que estivesse tentando se reconstruir, sua vida não voltara a ser a mesma.       
+            Ainda assim, a única vantagem de namorar a chefe e colega de trabalho, era que depois do término, poderia continuar vendo ela, tendo reuniões em comum, esbarrando no corredor, dividindo o mesmo elevador. Apesar de trazer muitas memórias à tona, ainda era uma maneira de tê-la presente, era seguro saber que ela ainda estava ali há alguns metros de distância. Obviamente não se tratavam da mesma maneira de antes e nem poderiam, existiam muitas mágoas de ambas as partes. Mas ainda era possível que ela continuasse na sua vida, mesmo que fosse através do trabalho. Era como se alguma parte dela ainda estivesse com ele.     
+            Entretanto, ver Lim na Guatemala, liderando uma equipe de médicos, se adaptando tão bem aquele lugar desconhecido, rindo para um estranho como não ria há muito tempo para tantos conhecidos, fez Melendez temer que perdesse a única parte de Audrey que ainda restava para ele. Ele não queria perdê-la mais do que já havia perdido e nem sabia que aquilo era possível, até chegar naquele lugar e ver um certo doutor colocar os olhos na sua parceira de uma vida.           
+            No início, pensou que Lim fosse se afastar, afinal aquela era a especialidade dela. Porém foi surpreendido quando viu ambos conversando certa manhã enquanto tomavam café juntos, ela havia até mesmo acordado mais cedo do que o habitual. Para piorar, ambos eram cirurgiões de trauma e realizariam todas as cirurgias juntos. E não demorou para que se tornassem grandes amigos. Compartilhando experiências médicas e de vida, fazendo as refeições juntos, dividindo o mesmo lugar no ônibus. E então chegaram até aquela noite, naquele bar.  A véspera da equipe voltar para San Jose. O que deveria ser um alívio para o médico, mas não era. Pois, naquela tarde, ele soube que havia uma pessoa que não retornaria à Califórnia.           
+            Escutara a chefe do hospital da Guatemala avisando um paciente que a cirurgia dele ainda aconteceria, visto que uma das doutoras do San Bonaventure não voltaria para casa. Só podia ser Lim. Uma vez que Claire recomeçara a estabelecer laços com seu pai e Morgan era uma boa pessoa, mas não estaria disposta a viver naquele lugar, ainda mais agora que era óbvio que havia surgindo um sentimento além de amizade entre ela e Park. Então, só restava Audrey. A mulher que estava sozinha, que acreditava que não deixaria ninguém para trás, o que não era verdade. Porque ele ficaria para trás, ele a perderia. Melendez sentia uma grande necessidade de impedi-la de fazer aquela loucura. Não poderia deixá-la partir de sua vida por completo, Lim precisava saber como ele se sentia, que ele ainda a amava. 
+            Guiado por aqueles pensamentos, Neil se levantou da cadeira apressado e saiu do bar sem olhar para trás. Por sorte, conseguiu entrar na van que Audrey e Mateo estavam. Sentou-se no banco que havia atrás da dupla de médicos.         
+            — Boa noite. <br>    Cumprimento.        
+            Randon percebeu que o corpo de Lim ficara tenso repentinamente, ela sempre ficava diferente quando Melendez estava por perto, a doutora se distanciava, se desconcentrava. Era nítido que ela e seu colega de trabalho haviam tido algo no passado, algo que ainda não havia acabado e estava vivo dentro deles. Por aquele motivo, não tentara nada com a mulher, embora ela lhe fascinasse, não havia espaço para ele em um coração que já estava ocupado por outra pessoa.  
+            <br>— Oito...      
+            Lim comentou retomando ao assunto que eles conversavam antes da chegada de Neil.
+            <br>— Sou fluente em apenas seis.
+            <br>— Então, é um gênio das línguas? Como aprendeu elas?
+            Melendez revirou os olhos, era só o que faltava ver sua ex flertando com outro homem.
+            <br>— Aprendi enquanto me mudava.
+            <br>— Você se mudou para quais lugares? 
+            A doutora quis saber. Neil não gostava de vê-la interessada na vida do médico.
+            <br>— Bem, nasci no México. Fiz medicina em New Haven, residência em Chicago. Fiquei um tempo na Síria, no Haiti, Congo...
+          </p>
+          <p>
+            Neil suspirou. Era óbvio que ele estava dizendo aquelas coisas para impressioná-la. O pior era que Mateo era um cara legal, não havia nada que pudesse usar contra ele. Era uma boa pessoa. Lim merecia estar cercada de boas pessoas. Mas ele queria ser a pessoa da vida dela.
+          </p>
+          <p>
+            <br>— Esse não é caminho para o hotel província, para onde está nos levando? 
+            <br>— Nós vamos ter que fazer uma parada. 
+            O traumatologista questionou, confuso. Ele falava em espanhol. O que chamou a atenção de Lim e Melendez. O cardiologista, que falava a língua muito bem, devido a origem dos pais latinos, se atentou a conversa entre o médico e o motorista. 
+            O desconhecido falou.
+            <br>— Você quer dinheiro?
+            <br>— Não preciso do seu dinheiro. 
+            O homem retrucou antes de se virar para encará-los. Naquele momento, perceberam que era um rosto conhecido, visto que se tratava do professor, um dos ladrões mais procurados no mundo.   
+            <br>— Não foi você que liderou o assalto a casa da moeda e ao banco da Espanha? 
+            Neil indagou com os olhos arregalados. 
+            <br>— Sim. Eu sou Sérgio Marquina, mais conhecido como o professor. E preciso da ajuda de vocês, por bem ou por mal. Então, essa noite, serão meus reféns. 
+            Sérgio bradou fazendo com que Neil e Mateo se encarassem, espantados.
+            <br>— O que está acontecendo? 
+            Lim perguntou, preocupada. 
+            <br>— Não se assuste, mas estamos sendo sequestrados.
+            Neil revirou os olhos, aquela era uma coisa ridícula de ser dita em um momento como aquele. Como que Mateo não queria que Lim se assustasse? É óbvio que ela ficaria apavorada. Audrey era uma mulher forte e durona, mas também sentia medo. 
+            <br>— O quê? 
+            Ela indagou chocada. 
+            <br>— Relaxe, eles lideram uma revolução contra o sistema, mas não são assassinos, não matam pessoas.
+          </p>
+          <p>
+            Randon consolou e, para desespero de Neil, o mexicano segurou a mão de Lim, acalmando-a. Uma mão cujos dedos já haviam se entrelaçado aos seus muitas vezes.  
+            As palavras do mexicano haviam obtido o efeito esperado, visto que Lim não voltara a falar uma única palavra.
+          </p>
+          <p>
+            Apesar do ciúmes que sentia, Melendez se preocupava com a segurança dos três. Só queria tirar Lim daquela Van, embora não visse maldade nos olhos do professor, que parecia observá-lo pelo espelho retrovisor. O olhar do homem não lhe causava pavor, pelo contrário, ele parecia preocupado. Por um instante, Melendez se reconheceu naqueles olhar, pareciam duas íris castanhas desesperadas, amedrontadas, carregando um medo que Neil já havia conhecido; o medo de perder a mulher que amava. 
+            Sensação que o atingira quando Lim fora diagnosticada com aquele terrível vírus no natal.             
+          </p>
+          <p>
+            A van fez várias curvas até finalmente entrar em uma rua de chão batido, que ficava entre dois terrenos cuja grama verde se destacava, uma casa humilde mais à frente chamou a atenção dos médicos. O veículo foi estacionado e o professor não demorou a descer.
+          <br>— Venham, por favor, depressa!
+          Percebendo que Audrey permanecia paralisada no banco, Melendez ergueu seu corpo para frente e sussurou no ouvido da amada:
+          <br>— Não precisa ter medo Limmy, ele é só um homem com medo de perder alguém que ama. 
+          <br>— Como você sabe disso?
+          <br>— Porque eu reconheço aquele olhar, eu também já senti aquele medo. Ele só está... desesperado. Só pode querer salvar alguém, o que seria mais importante do que a vida? A vida de uma pessoa amada. Por isso, ele deve precisar da gente. Somos médicos. E um dos homens mais procurados pela polícia no mundo, só está disposto a arriscar tudo assim por amor. Nós poderíamos entregá-lo a qualquer momento e ele nem está preocupado com isso. 
+          <br>— Sim, você tem razão, mas e se ele não deixar a gente sair?
+          <br>— Isso não vai acontecer. Nós vamos garantir que não iremos denunciá-los, porque, de certa forma, estamos do lado deles e gostamos de revolucionários!
+          <br>— Isso é verdade. Ok, vamos lá. 
+          Disse a doutora esboçando um meio sorriso para ele. Meio. Era melhor do que nada.
+          Os três médicos seguiram para dentro da humilde residência, encontraram uma mulher loira em trabalho de parto, ela suava.
+          <br>— Está é a Raquel ou Lisboa, como preferirem. Ela está em trabalho de parto há 14 horas. Eu tentei fazer o parto dela, mas não sei, acho que tem alguma coisa errada. As coisas não aconteceram como o planejado.
+          </p>
+          <p>
+            Sérgio bradava, nervoso. Ele não entendia o porquê de nada ocorrer como ele esperava, já havia feito o parto de Alicia, tudo havia saído como o previsto, mas não fora capaz de obter o mesmo sucesso ao colocar seu filho ao mundo. Ainda havia o agravante do esgotamento de Raquel, ela estava muito abatida, ele não poderia colocar a vida de seu primeiro e único amor em risco. Ao lado da inspetora, ele aprendera mais sobre o amor e sobre todos os sentimentos que uma pessoa poderia causar na outra, foram tantas lições de vida, que nenhum livro havia lhe proporcionado. Com Lisboa, ele nunca sabia como seria o minuto seguinte, embora gostasse de tudo metódico e imprevisível, era com ela, com Raquel, que ele se permitia viver sem fazer planos. Com ela, Sérgio aprendera a conviver com o inesperado. Ele nunca sabia o que aconteceria, mas, se tinha uma coisa que ele sabia, era que jamais se permitiria perdê-la. Por isso, decidiu fazer o que qualquer homem desesperado faria, mesmo que aquilo significasse seu fim. Suspirou.
+            Audrey encarou Neil, o homem sabia que os olhos dela davam razão ao que ele havia proferido minutos antes. 
+            <br>— Você tentou fazer o parto da sua esposa? 
+            Lim perguntou, chocada. 
+            <br>— Sim, eu leio muito.
+            <br>— Preciso que alguém me traduza para ela. — A doutora bradou enquanto era observada pelos três homens. — Olá, sou médica. Vou cuidar de você e do seu bebê, agora fique tranquila e relaxa. Estamos aqui para ajudar vocês, ok? Vou te examinar certo? 
+            A chefe de cirurgia bradou se agachando ao lado de Lisboa. O coração da doutora acelerou ao escutar a voz de Melendez e Mateo falando em espanhol ao mesmo tempo. Para Lim, era estranho quando Neil a obedecia. Ele a respeitava no hospital, mas para ela era muito estranho ser chefe do seu ex. Terminaram porque não sabiam separar seu relacionamento pessoal do profissional, mas a verdade era que, mesmo depois do fim, monitorá-lo continuava sendo um desafio. No entanto, a voz de Melendez deixara de ser ouvida pela mulher, uma vez que dois homens falando ao mesmo tempo deviam ter confundido Raquel.
+            <br>— Dó muito.
+            Lisboa murmurou. Não demorou para que Sérgio se sentasse ao lado da esposa e abraçasse. 
+            <br>— Você vai conseguir carinho, eu tenho certeza. 
+            Falou. Em momentos como aquele, o professor desejava saber se expressar melhor, mas seu nervosismo não permitia.  
+            A traumatologista sorriu brevemente ao testemunhar o amor que o casal a sua frente sentia um pelo outro, havia tanta cumplicidade ali. Fora inevitável não pensar que aquela era uma realidade há muito desconhecida por ela.
+            <br>— Ok, vamos lá... — Audrey começou a tocar na barriga de Lisboa com as mãos e logo colocou a cabeça sobre a barriga da antiga inspetora. — Bem, a cabeça está para baixo, então a posição não é o problema.
+            Relatou enquanto os homens a ouviam com atenção, Randon informou a mulher o que Lim acabara de dizer. Raquel continuava gemendo de dor. 
+            Neil observava a expressão de concentração que Lim exibia. Para ele que tanto a conhecia, era óbvio que ela buscava por algo que não encontrava.
+            <br>— Você não consegue ouvir nada...
+            Ele observou se agachando ao lado da doutora que confirmou com a cabeça.
+            <br>— Eu vi que tinha um copo na...
+            <br>— Pode deixar que eu vou buscar.
+            Disse antes de sair correndo. Enquanto isso, Audrey colocava suas luvas cirúrgicas.
+            <br>— Por favor, diga que tenho que ver o colo...
+            Ela pediu intercalando o olhar entre Mateo e Lisboa. 
+            <br>— A doutora vai te fazer um toque.
+            O médico declarou fazendo o que fora solicitado.
+            <br>— Ela está totalmente dilatada.
+            Lim informou. Aquela altura, Melendez ja voltara para a casa trazendo consigo o copo, que ele rasgou com pressa enquanto era observado pela médica. Neil entregou o copo à doutora e ela o posicionou sobre a barriga de Raquel. Após colocou o ouvido sobre o copo com intuito de ouvir os batimentos cardíacos do bebê, torcendo para que ele estivesse vivo. 
+            <br>— Consegui ouvir um batimento! — Comunicou movimento sua cabeça com pressa, seus cabelos negros se mexeram rapidamente, ah ela ficava ainda mais linda quando estava vivendo aqueles momentos de adrenalina . — Mas está com taquicardia. 
+            Anunciou deixando os médicos em alerta. Se olhavam aflitos, mas Lim e Melendez direcionaram seu olhar para Lisboa rapidamente assim que ela empurrou o bebê.
+            <br>— Não empurre!
+            Audrey e Neil bradaram ao mesmo tempo. 
+            <br>— Algum movimento? 
+            O cardiologista questionou enquanto se agachava ao lado de Lim que já se encontrava em frente as pernas de Murillo, desejando que aquele bebê chegasse ao mundo. A aproximação do médico a desconcertava. Por um breve instante, desviou os olhos castanhos de Raquel para encarar o homem qua ainda fazia seu coração disparar, ainda mais quando ele deixava de ser um arrogante babaca e arregassava as mangas de suas camisetas caras para ajudá-la, como literalmente acontecia naquele momento.
+            <br>— Não. Não sinto o cordão. Talvez a pelvis seja muito estreita. Os batimentos estão desacelerando. — Informava enquanto continuava realizando o toque. — Oh, espere! Estou sentindo movimentos, a mão está no rosto. O bebê está chupando o dedo, por isso que não progride. Posso fazer uma episiotomia e tentar puxar, mas provavelmente vou quebrar a clavícula.
+            Constatou, preocupada.
+            <br>— Ache o dedo do bebê e aperte com força. 
+            Melendez sugeriu deixando Lim espantada. Apesar de insegura e surpresa com o palpite do homem, ela fez o que foi recomendado. Afinal não haviam muitas opções. 
+            Mateo pronunciava cada palavra proferida entre os doutores americanos. 
+            A mão livre de Sergio acariciava o rosto da amada, numa tentativa de acalmá-la.
+          </p>
+          <p>
+            Lim se concentrava na atividade. A médica era observada com expectativa por todos os presentes, menos por Melendez, porque ele sabia que ela resolveria a situação. 
+          <br>— Funcionou! 
+          <br>Ela exclamou sorridente e admirada. 
+          <br>— Certo mamãe, vamos empurrar ok? — Neil solicitou. 
+          <br>— Empurre, empurre.
+          <br>Audrey pediu.
+          <br>Lado a lado, Lim e Melendez incentivavam a mulher a trazer seu pequeno bebê ao mundo. Entre gemidos, gritos e uma dor intensa, Lisboa finalmente conseguira dar a luz a sua filha. Era uma menina. 
+          <br>— Parabéns mamãe! 
+          <br>Audrey afirmou. O sorriso largo que ela exibia, fez o coração de Melendez disparar. Ainda mais ao observá-la carregando uma bebê nos braços para entregá-la à mãe. 
+          <br>— Nuestra hija, Sérgio...
+          <br>A mulher murmurou, emocionada. As lágrimas de amor e felicidade escorriam pelo seu rosto. 
+          <br>— Si. Un pedazo de los dos.
+          <br>O homem pontuou igualmente comovido.
+          <br>Assim como Lim, Melendez se aproximou do casal. 
+          <br>— Ela é linda! Parabéns! Você fez um ótimo trabalho, Audrey. 
+          <br>O médico declarou colocando o par de mãos na calça social. Naquele momento, ambos desviaram o olhar da bebê para se encararem. Uma simples troca de olhar fora o suficiente para fazer seus coração se agitarem. Ali, naquela casa, na companhia daquele casal apaixonado que completava sua família, Lim e Melendez se atreveram a se encarar por mais do que alguns segundos, sustentando o olhar por muito mais tempo do que haviam feito no último ano. 
+          <br>— Nós fizemos. 
+          <br>Ela corrigiu. Havia tanta intensidade entre aqueles castanhos. Tantas palavras não ditas entre os dois. Palavras de amor, de dor. Mas ainda havia tudo entre ambos. O que não passou despercebido por Raquel.
+          <br>Naquele momento, Neil sentiu falta de trabalhar em equipe com sua ex. Ela era uma ótima médica. Ele era um ótimo médico. Mas, por alguma razão que ele desconhecia, a vida, o destino ou o que quer que fosse, os impedira de serem ótimos como um casal. 
+          <br>— Vocês formam uma bela equipe. 
+          <br>Melendez sorriu ao escutar o comentário de Sérgio. Deslizou o polegar no queixo, sorridente. Ah, aquele charme todo, deixava as pernas de Lim fracas. 
+          <br>— Como vocês vão chamá-la? 
+          <br>Lim quis saber tornando a mirar mãe e filha.
+          <br>— Selene.
+          <br>Raquel e Sérgio responderam ao mesmo tempo.
+          <br>— Em homenagem a Tóquio, uma das nossas parceiras que infelizmente acabou morrendo. Ser um revolucionário é um risco muito grande. 
+          <br>Marquina lamentou.
+          <br>— Nós sentimos muito pela sua perda. 
+          Audrey falou com sinceridade. Sendo traduzida por Mateo.
+          <br>— Obrigado doutora. Mas sabe que eu não me arrependo de ter lutado pelo que acredito, principalmente porque foram meus princípios e meu primeiro assalto que me levaram até Raquel, meu primeiro amor. 
+          <br>O homem falou esboçando um sorriso. Diferente das anteriores, aquelas palavras foram pronunciadas por Neil.
+          <br>— Como assim? Eles se apaixonaram durante um assalto? — a médica indagou, curiosa  — E eu pensando que gostava de adrenalina. 
+          <br>Ela comentou fazendo Melendez sorrir discretamente antes de perguntar em espanhol os questionamentos que a ex fizera. Não demorou para que Sérgio a respondesse e fosse traduzido pelo cardiologista.
+          <br>— Basicamente, ela era nada menos do que a inspetora responsável por investigá-lo, mas eles foram se conhecendo e o amor foi acontecendo, mas ele temia que tudo acabasse, porque sabia que não era alguém real e que, em breve, tudo acabaria. Mas amá-la foi inevitável mesmo assim. E, quando a verdade foi descoberta, apesar da raiva e traição que Raquel sentia, eles encontraram uma forma de ficarem juntos. Então, ela se juntou ao bando, não só por amor, mas porque também se revoltou contra o sistema. — o médico bradou sendo observado atentamente pela ex que admirava a história de amor do casal a sua frente  — Isso não é incrível? 
+          <br>Melendez perguntou. 
+          <br>— Sim. É uma história de amor muito bonita e intensa. É admirável que eles tenham conseguido encontrar uma maneira de ficarem juntos.
+          <br>Lim comentou testemunhando a felicidade do casal que se distraia ao encarar a recém nascida. Sorriu. 
+          <br>— Sabes doctor, la vida es demasiado corta para aferrarnos a las heridas que sentimos por aquellos que amamos, a menudo amando y siedo amados, es suficiente para superar las dificultades. Es difícil superar algunas cosas, pero la felicidade que se obtiene después de una segunda oportunidad es gratificante.
+          <br>Lisboa relatou intercalando o olhar entre a mulher à sua frente e a bebê em seu colo. O sorriso crescia cada vez mais em seu rosto. 
+          <br>O coração de Melendez vacilou batidas diante das afirmações preferidas pela antiga inspetora. 
+          <br>— Sabe doutora, a vida é curta demais para nos prendermos apenas nas magoas que sentimos de quem amamos, muitas vezes amar e ser amado de volta, é o bastante para superarmos as dificuldades. É difícil superar algumas coisas, mas a felicidade que pode vir depois de uma segunda chance é recompensadora. 
+          <br>O homem murmurou por fim testemunhando os olhos de Lim se arregalaram. Ambos sentiam o peso que aquelas palavras possuíam. 
+          <br>— Cuando conocemos a la persona adecuada, perderla sería un error incorregible. Entonces desde que me encontré con Raquel en la cafetería y le presté mi cargador, supe que no amarla sería una tarea difícil. Y después de eso, cada vez que nos veíamos, sentia que mi corazóns se aceleraba, me temblaban las piernas, me sdaban las manos. Entonces supe que ya no podría vivir sin una persona que me despertaba tantas emociones diferentes, pero tenía mucho miedo de un futuro sin ella. Y cuando lo perdí, colapsé. Todas mis perspectivas de una vida sin amor me perturbaban, me sentía solo y estúpido por haberla tenido e perderla. — Neil ouvia aquele relato de cabeça baixa, encarando o chão, pois o remorso brilhava em seus olhos. Ele se identificava com cada palavra. — Así que decidi que la recuperaría y lo dejé todo resuelto en caso de que Raquel alguna vez me perdonara. Y hoy estamos aquí. La vida ya nos quita tantos queridos, por qué vamos a contribuir a estar sin los que amamos, no son los médicos?
+          <br>Sérgio bradou tornando a deixar Neil sem graça com aquelas palavras. Em sua mente, o doutor batalhava contra a vontade que tinha de agarrar Lim, beijá-la e declarar o amor que sentia por ela. Se senti um tolo por tê-la perdido. Mas o casal à frente, lhe dava esperanças de que ainda era possível dar uma segunda chance para o amor que sentiam um pelo outro. 
+          <br>— O que ele disse?
+          <br>Audrey perguntou curiosa. A doutora estava ansiosa por escutar aquela tradução, aquele casal a inspirava sobre o amor. O questionamento da mesma tirou Neil de seus devaneios secretos. Ele a encarou no fundo dos olhos e repetiu exatamente as mesmas palavras. Palavras que ele desejava dizer para ela.
+          <br>— Quando conhecemos a pessoa certa, perdê-la, seria um erro incorrigível. Por isso, desde que me esbarrei com a Raquel na cafeteria e que emprestei meu carregador para ela, soube que não amá-la seria uma tarefa difícil. E, depois disso, cada vez que nos encontrávamos, eu sentia meu coração acelerar, minhas pernas tremerem, as mãos suarem. Eu soube então que não poderia mais viver sem uma pessoa que me despertasse tantas emoções distintas, tinha muito medo de um futuro sem ela. E, quando a perdi, eu desabei. Todas as minhas perspectivas de uma vida sem meu amor, me perturbavam, eu me sentia sozinho e idiota por tê-la tido e a perdido. 
+          <br>Então, eu decidi que a reconquistaria e deixei tudo planejado, caso um dia Raquel me perdoasse. E hoje estamos aqui. A vida já tira de nós tantas pessoas queridas, por que nós mesmos vamos contribuir para ficar sem quem amamos, não é doutores? 
+          <br>Finalizou. O casal de médicos continuava se encarando, mas nada fora dito, como de costume entre os dois. Entretanto, antes que mais palavras pudessem serem trocadas,
+          <br>eles foram surpreendidos pela porta sendo aberta bruscamente revelando a figura de um homem alto, de bigode e cabelos castanhos. 
+          <br>— Quem são esses?
+          <br>O desconhecido quis saber.
+          <br>— Não se preocupe, Marselha. Eles são amigos, nos ajudaram com o parto. Por isso, solicitei a sua presença, preciso que tire eu e a Lisboa daqui.
+          <br>— E o que vamos fazer com eles?
+          <br>— Teremos de amarrá-los. 
+          <br>O professor bradou intercalando o olhar entre os médicos e seu amigo.
+          <br>— Espere, vocês já vão fugir? Mas, ela precisa descansar. Acabou de dar a luz.
+          <br>Lim observou se posicionando entre os dois homens. Falando inglês sem ser compreendida enquanto os fugitivos a encaravam confusos.
+          <br>— Limmy, cuidado. — Neil murmurou se colocando ao lado da ex, entrelaçando sua mão com a dela, visto que entendera o que Marquina acabara de dizer. Tinha medo que recorressem a uma violência maior com Lim se ela continuasse contestando. Por um momento, a mulher deixou a adrenalina de lado e baixou os olhos para ver suas mãos unidas depois de tanto tempo. Mas logo encarou o ex e viu que ele movimentava a cabeça em negação, sinalizando para que ela se calasse. — Fique quieta. São boas pessoas, mas estão fugindo da polícia, eles precisam ir. Vão só nos amarrar e tudo ficará bem.
+          <br>— Mas eu não estou mais com medo, eu sei que eles não vão nos machucar. Mas estou preocupada com Raquel e Selene.
+          <br>— O que ela está dizendo? 
+          <br>Sérgio indagou.
+          <br>— Doctora Lim esta preocupada con su mujer e su hija.
+          <br>— Bueno, dile a su mujer que soy dura e fuerte, ya que aparentemente ella también lo es.
+          <br>Lisboa bradou levantando-se da cama com a filha em seus braços. O coração de Melendez tornou a acelerar diante do termo usado por Raquel para se referir a Audrey. Ele não a corrigiu. Porque aquilo era tudo que ele queria.
+          <br>— O que ela disse? 
+          <br>Lim quis saber.
+          <br>— Que ela também é uma mulher forte e durona como você. 
+          <br>— Ok. — a traumatologista consentiu — Neil, diga para ela cuidar de si mesma e da bebê.
+          <br>O médico moveu a cabeça positivamente e traduziu. Depois de sua fala, ambos foram surpreendidos por um abraço repentino de Raquel. 
+          <br>— Muchas gracias. Nunca olvidare dos doctores que trajeron mi hija al mundo. Deseo felicidad a ambos. — Declarou se afastando do casal. — Ahora yo y Sérgio vamos a llevar Selene para conocer su hermana Paulita!
+          <br>A mulher sorriu e abanou para Mateo antes de seguir até à porta.
+          <br>— Muchas gracias, doctores. 
+          <br>Marquina agradeceu apertando a mão de ambos e depois a de Randon.
+          <br>Depois disso, Marselha fez um círculo com três cadeiras e ordenou que os médicos se sentassem ali. Logo sentiram as cordas apertando-os. 
+          <br>— Desculpe pela corda. 
+          <br>O professor murmurou e logo os três partiram. O casal de assaltantes fugira deixando Audrey e Neil cheio de reflexões.
+          <br>
+          <br>***
+          <br>
+          <br>— Que noite maluca!
+          <br>Lim afirmou sorrindo brevemente, ela se encontrava entre os dois homens. 
+          <br>— Sim. Foi... imprevisível. 
+          <br>Mateo comentou.
+          <br>— Pois é. — A médica murmurou parando em frente a porta de seu quarto. — Boa noite Neil, Mateo. 
+          <br>Ela disse colocando a mão na maçaneta da porta.
+          <br>— Audrey, espere. — Melendez bradou chamando a atenção da ex. — É... será que podemos conversar um pouco?
+          <br>— Sim, ok.
+          <br>— Bem, eu já vou indo. Buenas noches Audrey Lim, doutor Melendez. 
+          <br>Randon se despediu entrando no seu quarto.
+          <br>— Você foi ótima hoje. 
+          <br>O homem elogiou, os olhos brilhando de orgulho.
+          <br>— Você também.
+          <br>— Eles tem razão, ainda somos uma boa dupla.
+          <br>— Sim. Sempre fomos.
+          <br>Disparou sem perceber.
+          <br>— Pois é, por isso eu esperava mais sinceridade da sua parte, afinal estamos trabalhando juntos há 12 anos. E você ia se despedir de mim só amanhã, Limmy? Quando estivéssemos com todos os outros? Mesmo depois de tudo entre nós? 
+          <br>— O quê? Do que você está falando?
+          <br>— Eu já sei que você não vai voltar para San Jose, ouvi a chefe de cirurgia conversando com uma das enfermeiras, falando que uma das médicas americanas ficaria aqui, que não voltaria para a Califórnia, como restante da equipe. Eu sei que é você, porque Claire e Morgan tem motivos para retornarem às suas casas, você não. Então conheceu esse doutor mexicano, ficaram amiguinhos e resolveu ficar aqui com ele e nem iria se despedir de mim corretamente.
+          <br>— Como é que é? Eu não acredito que depois de tudo que acabamos de passar, você está aqui me fazendo cobranças. Pois bem, saiba que mesmo que eu quisesse ficar aqui, eu poderia. E não devo nenhuma satisfação a você para ter que me despedir de maneira especial. Não há mais nada entre a gente. Você se certificou de que isso acontecesse quando acusou eu e ao nosso relacionamento de ter sido responsável pela morte da sua paciente, sendo que eu falei para você fazer o que ela quisesse, procedimento padrão que sempre foi estabelecido em San Bonaventure. Mas você estava machucado, com o orgulho ferido, ainda por cima, não aceitava receber as minhas ordens. 
+          <br>Lim despejava as palavras sem parar, pela primeira vez em um ano, ela colocava para fora tudo aquilo que a magoara. 
+          <br>— Ah, agora a culpa do nosso relacionamento não ter dado certo é minha? Foi você que terminou comigo!
+          <br>— E você que fez questão de não lutar por nós! — Ela rebateu. Naquele momento, Melendez percebeu a grande mágoa que os olhos castanhos marejados da mulher exalavam. Ele havia a machucado no passado e no presente. — E continua sendo um babaca, orgulhoso, arrogante, Neil. É a Claire que vai ficar. E talvez eu tivesse um motivo para voltar, mas ele não vale a pena.
+          <br>— Audrey...
+          <br>Tentou chamá-la, mas ela bateu a porta na sua cara. Sentiu-se um tolo, voltara a errar com Lim, acusá-la sem ter certeza daquela informação fora mais uma insensatez de sua parte. Provavelmente acabara de perdê-la para sempre. Talvez, diferente da história de Sérgio e Raquel, não houvesse uma segunda chance para eles dois.
+          ***
+
+          <br>     Dois meses desde que haviam retornado da Guatemala haviam se passado. Lim e Melendez continuavam agindo como se não se amassem, como se todo aquele ciúme  sentido claramente pelo homem fosse algo que devesse ficar a quilômetros de distância. Nenhum dos dois havia conversado sobre aquilo. Era mais fácil ignorar, fingir que nada acontecia. Como no último ano. 
+          <br>Entretanto, no coração do homem, algumas coisas começaram a fazer sentido depois das discussões e desavenças trocadas durante a viagem. E um pequeno ponto de esperança passou a iluminar sua vida ao pensar que talvez alguma parte de Audrey ainda o amasse. Mas não era aquilo que ela parecia sentir quando se encontravam nos corredores do hospital.
+          <br>No aeroporto, antes de voltarem para os Estados Unidos, Lea havia surpreendido o Shaun com um pedido de casamento repentino, que ele aceitou com muito gosto. Desde então, o casal de noivos vinha planejando sua cerimônia, que acabara de acontecer naquela tarde. 
+          <br>Neil e Audrey haviam sido convidados para serem os padrinhos, convite que fora impossível recusar. Todavia, enquanto dividia o altar com o casal mais novo, ao lado de sua ex, ouvindo tantas palavras bonitas de amor, o médico se questionou, por um breve momento, como seria se fossem eles dois trocando as alianças? 
+          <br>Por um instante, jurou que esse mesmo pensamento perturbava a mulher ao seu lado, visto que ela intercalava o olhar entre eles e o casal que jurava amor na saúde e na doença, na tristeza e na felicidade. 
+          <br>Para ele, Lim parecia lutar contra uma tristeza que ela fazia de tudo para esconder com seus encantadores sorrisos. 
+          <br>Depois da cerimônia, os convidados se divertiam na pista de dança, outros saboreavam o cardápio perfeitamente escolhido pelo casal. As risadas se espalhavam pelo local, mais distante na mesa reservada para ela, Audrey não saía do celular. Parecia resolver algum problema. Apesar da carranca, estava linda. Seus cabelos castanhos eram cobertos por mexas loiras e estavam encaracolados naquela tarde de verão. No corpo, a chefe trajava um vestido da cor vinho que revelava as curvas robustas e delicadas que ela possuía. No rosto, maquiagem leve. Nos pés, os sapatos de salto que ela tanto reclamava. Ela se parecia com uma dama. Longe de ser a mulher aventureira que era, aquela que se arriscava ao andar em alta velocidade na sua motocicleta, deixando-o preocupado. Ah, aquela mulher era linda. Não importa se estivesse usando suas camisas de super heróis, sua roupa de motoqueira, seu jaleco, seus terninhos ou um vestido de festa. Ele amava todas aquelas versões daquela mulher.
+          <br>— Vai só ficar com essa cara de bobo ou irá se arriscar e ir falar com ela?
+          <br>Glassman questionou aproximando-se do cardiologista, entregando um copo de uísque para o mais novo.
+          <br>— O quê? Do que você está falando?
+          <br>— De você e da doutora Lim, é óbvio! É evidente que vocês ainda se amam. 
+          <br>O senhor comentou deixando Melendez desprevenido com aquelas palavras. Mas talvez fosse daquilo que ele precisasse, um amigo, um mentor para desabafar.
+          <br>— Como você tem tanta certeza? E se a Audrey não sentir o mesmo? E se ela não me amar mais?
+          <br>— Você viu que a Debbie veio comigo, não é?
+          <br>— Sim. Aliás, fico feliz por vocês dois. Pelo que pude ver, vocês se acertaram.
+          <br>— Sim. Nós nos reconciliamos, percebemos que ainda nos amávamos e embora pudéssemos ser felizes sozinhos, éramos muito mais juntos. Mas, para isso, um de nós dois teve que arriscar, arriscar ouvir uma resposta negativa. E  eu arrisquei. Se não tivesse feito isso, não estaria aqui bebendo e dançando com a mulher que eu amo. Se você ainda a ama, e pela maneira que eu te vi olhando para ela agora, do mesmo jeito que a encara quando ela está distraída lá no hospital, eu acredito que a ame. Se arrisque, lute por ela, por vocês. Diga o que sente Neil, a vida é muito curta para deixar o orgulho e o medo nos afastarem de quem a gente ama. 
+          <br>O mais velho pontuou, fazendo com que o doutor se questionasse se deveria tentar seguir aquele conselho ou não. Da última vez que uma história de amor o inspirara, ele cometera mais um erro responsável por separá-los.
+          <br>Voltou a procurar Lim com os olhos. E, fora naquele momento, que o destinou lhe mandou o sinal do qual ele precisava. Enquanto um aglomerado de mulheres se amontoava para pegar o buquê, Audrey parecia distraída e irritada caminhando pelo gramado falando ao celular, provavelmente buscando por sinal. Até que algo inesperado aconteceu e roubou a atenção da chefe de cirurgia, o buquê da noiva caiu aos seus pés. 
+          <br> 
+          <br>***
+          <br>— Limmy? A festa está ótima, não é?
+          <br>Melendez pontuou aproximando-se do balcão do bar em que Audrey estava bebendo sua dose de uísque. A mulher parecia perdida em suas próprias reflexões. No entanto, escutar a voz do médico chamando-a pelo seu antigo apelido carinhoso fora um fator determinante para fazer com que ela voltasse à realidade. Não compreendia o porquê de seu coração vacilar batidas ao ouvi-lo pronunciar uma nomenclatura tão íntima entre eles. Na verdade, ela entendia. Porém preferia ignorar aquelas emoções ainda tão intensas e... dolorosas. 
+          <br>— Oi, boa noite. Então, está se divertindo?
+          <br>Ela bradou por fim.
+          <br>— Sim. Não mais que você, até mesmo o buquê pegou. 
+          <br>— Oh, você viu aquilo? Que loucura — sorriu antes de voltar a beber  — Eu estava falando no celular e de repente as flores caíram nos meus pés.
+          <br>— Sim. Ele foi até você. Me pareceu como... coisa do destino. — constatou. Aquelas palavras foram suficientes para fazer com que a chefe levantasse o olhar para encará-lo. As íris castanhas declaravam todos os sentimentos que ambos silenciavam. E, como em muitas vezes no último ano, eles diziam “eu te amo” um para o outro. — Eu adorei!
+          <br>— Pois eu achei irônico. 
+          <br>— Por quê? Você merece ser feliz, Audrey. Talvez a vida esteja tentando te mostrar algo. 
+          <br>— Então, você acha o quê? Que eu preciso me casar? — Indagou, espantada com a possibilidade de ver o homem que ela ainda amava sugerindo que ela seguisse em frente. Por mais que eles já estivessem separados por um longo tempo, ainda havia algo que se acendia dentro dela cada vez que se cumprimentavam no corredor ou quando Melendez sorria para ela. Lim continuava sendo atingida por um tremor em suas pernas, em sua barrriga, toda vez que suas peles se tocavam. E, ah seu coração, aquele falhava suas batidas cada vez que compartilhavam o mesmo elevador, aquele que no passado fora testemunha de tantos beijos calorosos, declarações repentinas, palavras de conforto quando as coisas não saiam como o esperado. Todos aqueles momentos faziam Lim sentir como se nada... tivesse acabado. Mas a verdade era que tudo estava terminado. — Porque eu já me casei uma vez e deu tudo errado. Então, eu não vou fazer isso de novo só porque um maldito buquê caiu nos meus pés. 
+          <br>Finalizou, levantando-se. Aproveitando a oportunidade para fugir de Neil, de todos os sentimentos que sentia por ele, fugir daquela sensação de dejavu que havia sido despertada nela desde o instante em que Melendez sentou ao seu lado e começou a beber uísque com ela.
+          <br>— Me desculpe, eu não queria te deixar chateada, Audrey.
+          <br>
+          <br>          — O que você quer Neil? 
+          <br>Você. A sua companhia. O seu sorriso. O seu... amor. Ele pensou. Mas aquelas foram palavras que não se atreveu a dizer. 
+          <br>— Conversar, beber, dançar. Sinto falta da minha amiga de longa data. — Declarou fazendo com que Lim baixasse a guarda. Embora a palavra amiga não parasse de se repetir em seus devaneios. — Vamos lá Limmy, apenas um drinque. 
+          <br>Convidou erguendo seu copo numa tentativa de convencer sua antiga parceira de bar a beber com ele. 
+          <br>Encará-lo ali, sorrindo para ela, com a sua postura de galã, elegante e ao mesmo tempo com humildade o suficiente para convencê-la a ficar, sem aquele maldito orgulho responsável por separá-los, tornou a recusa que estava na ponta da língua de Lim, impossível de ser pronunciada. Ele sempre conseguia fazê-la ceder. 
+          <br>— Eu não sei se é uma boa ideia, as pessoas podem comentar. Têm muitos funcionários do hospital aqui. 
+          <br>— Pare de agir como a chefe, hoje nós somos padrinhos de um casamento. Temos o direito de nos divertir como qualquer um aqui.
+          <br>— Ninguém que eu conheço consegue se divertir na companhia do ex. 
+          <br>Ela disse permitindo-se seguir pelos desejos do coração.
+          <br>— Ei, eu sou uma ótima companhia! — Melendez se defendeu despejando o conteúdo da garrafa de uísque no copo de ambos. — Você é muito mais do que uma ex namorada para mim. 
+          <br>Disparou. As palavras foram pronunciadas repentinamente, antes que ele pudesse controlá-las. Para sua surpresa e felicidade, Audrey parecia espantada e corada. 
+          <br>— Então... sobre o que você quer conversar? 
+          <br>Lim questionou depois de tomar um longo gole de sua bebida. A médica tentava compreender o que as palavras de Neil significavam. As mãos da mulher suavam, cinco minutos ao lado dele e ela já estava nervosa, assustada com tudo que sentia quando estava na companhia daquele homem. A paixão ainda vivia dentro dela, seus olhos ainda brilhavam de amor por ele. Seu coração ainda batia com uma maior velocidade quando estava perto dele. Porque era ele o homem que ela ainda amava. E, de repente, estar acompanhada por ele, bebendo, sentindo seu cheiro tão familiar, pareceu uma péssima ideia. Momentos como aquele despertavam todas as emoções que ainda viviam dentro de Lim. Ela não podia estar ali, tão perto de Neil, tão desarmada, vulnerável. Ela precisava ir, fugir, ignorar todos aqueles sentimentos, como vinha fazendo no último ano, necessitava. Mas não conseguia. Melendez parecia um imã que a puxava de volta para ele. 
+          <br>— Sobre qualquer coisa que você queira dividir comigo, pode ser sobre seus filmes de super heróis ou sobre suas aventuras na Ducati. — Disse exibindo um sorriso largo para ela. — Garçom — levantou a mão para chamar o homem que carregava consigo uma bandeja com alguns pedaços de bolo, Neil pegou um dos pratos com a guloseima e colocou na frente de Audrey. — Você precisa experimentar, está delicioso! Não te vi comer nada desde que chegou. Precisa se alimentar, Limmy. Quase não te vejo almoçar ou jantar naquele hospital. Está sempre com um copo de café na mão.
+          <br>Melendez observou enquanto Lim permanecia mirando-o, piscando, surpresa. Ao que tudo indicava, ele continuava cuidando a alimentação dela. Aquela simples constatação tornou ainda mais difícil disfarçar o amor que sentia por ele. Sem saber o que dizer, Audrey resolveu comer um pedaço de bolo. Sem saber como fugir daquela situação embaraçosa. 
+          <br>Mas até mesmo mastigar estava difícil uma vez que Neil não parava de fitá-la, embora tentasse disfarçar. Quem o visse, diria que ele estava nervoso. Mas Lim não levou aquela observação em consideração, preferiu acreditar que era seu coração tolo e ainda apaixonado que estava criando fantasias em sua mente. Melendez era um homem confiante demais para se deixar intimidar pela presença da ex.
+          <br>— Então, como está a Gabi? 
+          <br>A doutora perguntou por fim, depois de encontrar a lucidez que procurava para formular alguma frase coerente. No entanto, aquele tremor continuava visitando sua barriga. 
+          <br>— Ela está bem, com saudades de você.
+          <br>Neil sorriu, o amor e carinho que Lim sentia pela sua irmã o deixava ainda mais apaixonado por ela. Audrey era a mulher que ele sempre sonhou para ser sua parceira, mesmo que tivesse levado mais de dez anos para perceber isso e menos de um para conquistá-la e perdê-la. Só desejava que ela voltasse a fazer parte de sua vida outra vez. Não aguentava mais se contentar em encontrá-la apenas no hospital, ele queria sair para beber com ela, comer um hamburger, ver filmes de super heróis, comer a mesma comida a semana inteira porque a vida de dois médicos bem sucedidos não permitia muitas horas extras para os afazeres domésticos. Entretanto, quando elas sobravam, era nos braços um do outro que em outrora costumavam aproveitá-la, se beijando, se amando demoradamente ou loucamente. 
+          <br>— Sério? — a médica perguntou emocionada, fazendo com que Neil interrompesse seus pensamentos secretos para respondê-la.
+          <br>— Sim. 
+          <br>— Eu preciso ir visitá-la. 
+          <br>— Ela está na minha casa agora.
+          <br>Comunicou despertando o interesse da mulher, que levantou o olhar para fitá-lo, preocupada.
+          <br>— Por quê? Aconteceu alguma coisa? 
+          <br>— Não, pode ficar tranquila. Nós apenas estávamos nos sentindo sozinhos e bem... achamos que seria uma boa ideia voltar a morar juntos. Se quiser ir jantar lá uma noite dessas, tenho certeza que a Gabi irá adorar recebê-la. 
+          <br>— Podemos marcar, mas vai depender de como as coisas vão estar lá no hospital, porque...
+          <br>A mulher falava, inventava desculpas que pudessem salvá-la daquela situação, mas fora interrompida por uma declaração repentina:
+          <br>— Audrey, você está fazendo um ótimo trabalho, leva a sério suas responsabilidades, é firme nas decisões, mas tem a empatia necessária para se colocar no lugar do outro. É uma grande chefe! Me desculpe por ter demorado tanto para perceber isso.
+          <br>Falou enquanto cobria a mão de Lim com a sua.
+          <br>   A doutora ficou fitando suas mãos unidas, o toque familiar agitou o coração da mulher, que naquele momento, batia mais acelerado que sua Ducati na velocidade máxima.
+          <br>Não sabia o que fazer, desfrutar daqueles segundos de carinho que tanto lhe fizeram falta ou inventar uma desculpa qualquer e fugir dali?
+          <br>Ela odiava aquela sensação desesperadora que Neil ainda era capaz de lhe causar. 
+          <br>— Obrigada, eu fico satisfeita em saber que você está gostando do meu trabalho.
+          <br>Agradeceu recuando a mão para o próprio colo. Um silêncio constrangedor se fez presente entre eles. As vozes das pessoas ao fundo misturavam-se com a música que tocava na festa. 
+          <br>— Então... 
+          <br>— É...
+          <br>Ambos falaram ao mesmo tempo.
+          <br>— Eu acho melhor eu ir, está ficando tarde e eu preciso acordar cedo para correr amanhã...
+          <br>— Claro. — Ele concordou decepcionado. Estava perdendo-a mais uma vez. — Só vamos brindar antes de você ir, nós costumávamos fazer isso, lembra?
+          <br>E lá estavam as memórias das quais ela tentava fugir. É claro que ela lembrava. Como poderia esquecê-las?
+          <br>— Tudo bem. É...você quer brindar sobre o quê?
+          <br>— Aos velhos tempos.
+          <br>— Aos velhos tempos.
+          <br>Audrey repetiu. A troca de olhares entre eles revelava o desejo que faiscava em seus corpos.
+          <br>— Obrigada pela companhia, foi bom conversar com você por mais de cinco minutos.
+          <br>Antes que Lim pudesse responder, o antigo casal foi surpreendido pela canção que começou a tocar no ambiente. At last, famosa na voz de Etta James.
+          <br>— A nossa música... — Melendez comentou fitando os pares que dançavam na pista de dança. 
+          <br>— Sim...
+          <br>Ela concordou ainda perdida com o que estava acontecendo. Audrey não acreditava que haviam colocado justo aquela música para tocar enquanto ela estava prestes a ir embora, parecia até mesmo uma armação. Não. Neil não faria uma coisa daquelas, era melhor parar de se iludir. Entretanto, o convite a seguir a deixou em alerta: 
+          <br>— Eu acredito que não seja politicamente incorreto que um cirurgião chame sua chefe de cirurgia para dançar, não é? 
+          <br>Proferiu, deixando-a surpresa e despreparada para uma negativa.
+          <br>— Você não é qualquer cirurgião, Neil.
+          <br>— É só uma dança Audrey, por favor. 
+          <br>— Está bem.
+          <br>A mulher revirou os olhos, mas se viu aceitando. Embora tivesse medo de todos os sentimentos que tomariam conta dela, não conseguiu dizer não. 
+          <br>     Diante da resposta positiva da médica, Melendez entrelaçou sua mão a dela e juntos seguiram até a pista de dança. O casal era observado pelos convidados, que cochichavam entre si. Audrey não estava gostando nada daquilo. Mulheres que ocupavam cargos de poder eram constantemente julgadas, não podiam se dar ao privilégio de cometer erros. Mas, para seu coração, aceitar dançar com Neil jamais seria um erro, assim como amá-lo também não. 
+          <br>Todas aquelas reflexões foram deixadas de lado assim que a médica sentiu o braço musculoso do doutor se posicionar em sua cintura enquanto ela encostava a cabeça no peito de homem. Os olhos de Audrey se fecharam enquanto ela desfrutava do perfume que seu antigo amor usava. Para sua surpresa, o coração de Neil parecia tão agitado quanto o dela. Será que ela era responsável por aquilo? Por que ele a convidou para beber e depois dançar? O que aquilo significava? Como voltar a trabalhar no dia seguinte e conviver com ele como se nada tivesse acontecido? Seria capaz de continuar fingindo que não o amava? 
+          <br>A música seguia suas notas enquanto o casal arrastava os pés pelo chão lentamente, curtindo cada segundo que aquela aproximação de seus corpos proporcionava. Melendez conduzia Lim pelo salão, ele só queria que o tempo parasse para continuar tendo Audrey em seus braços, não queria vê-la partir mais uma vez. Queria relaxar, dançar com a mulher que amava sem se preocupar se quando a música acabasse ela se afastaria de seus braços e iria embora, mas infelizmente aquela era uma cruel realidade que o atormentava. Só havia uma maneira de mudar aquela situação, uma que consertaria ou estragaria tudo, Glassman estava certo. Ele precisava tentar reconquistar seu amor, antes que fosse tarde demais. 
+          <br>— Os funcionários não param de nos olhar, não quero nem pensar nos boatos que essa dança entre velhos amigos vai causar.
+          <br>— Fique tranquila Audrey, como eu já disse mais cedo, você é uma chefe excepcional. Ninguém tem o direito de contestar isso. Eu estava certo em abrir mão do cargo e deixá-lo para você. — Neil declarou enquanto sua mão passeava pelas costas da amada. Audrey se apavorava com a quantidade de emoções que uma dança podia despertar. — Você é uma chefe maravilhosa, soube se adaptar a tudo com uma rapidez surpreendente, soube separar o profissional do pessoal, soube ser minha chefe ao mesmo tempo em que você era uma namorada atenciosa. Mas, eu sou um grande babaca, não consegui separar a nossa relação do nosso trabalho. Meu ego é uma merda.
+          <br>— Neil, pare, por favor. Você não deveria estar me falando essas coisas. Hoje nós somos padrinhos do casamento do Shaun e da Lea, mas amanhã eu continuarei sendo a sua chefe, a sua ex e você meu colega de trabalho, o homem que... — ela interrompeu suas palavras antes de revelar sentimentos que poderiam comprometer o atual relacionamento que eles mantinham — Não podemos entrar em assuntos particulares, isso vai nos machucar mais ainda.
+          <br>— O homem que o quê? Continue Audrey, eu acho que devemos falar sobre isso sim. Eu preciso me desculpar por ter culpado você pelos meus erros, me perdoe. 
+          <br>— Tudo bem. Não tem mais importância, isso é passado agora.
+          <br>— Pois para mim, nada do que vivemos ficou no passado, Audrey.
+          <br>— Você disse que seria apenas uma dança por que estamos falando sobre isso?
+          <br>Neil constatou que Lim parecia querer fugir de qualquer assunto relacionado ao passado de ambos. Por quê? Seria uma tentativa de se proteger da dor do amor? Afinal, ela tinha dificuldades de demonstrar sua vulnerabilidade. Ainda por cima, quando conseguiu fazê-lo, ele estragou tudo. Mas havia algo que o incomodava. E se ela não quisesse conversar sobre os dois porque já havia superado aquela história? E se ela houvesse se apaixonado por outra pessoa? Guiado por aquelas dúvidas, Melendez questionou:
+          <br>— Você... se apaixonou por ele? 
+          <br>— O quê? Me apaixonei por quem?
+          <br>Questionou levantando a cabeça para encará-lo, confusa.
+          <br>— Pelo seu amigo mexicano.
+          <br>— O quê?! De onde tirou isso Neil? 
+          <br>— Não sei, pensei que você gostava de estar na companhia dele.
+          <br>— E eu gostava. 
+          <br>Confirmou, o que fez o corpo do médico tencionar. 
+          <br>— Eu percebi. Você não parava de sorrir quando ele estava por perto. 
+          <br>— Neil, o Mateo só é meu amigo. Ele é uma pessoa incrível, com um grande coração, mas, eu não terei nenhum relacionamento com ele. 
+          <br>— Mas amigos podem namorar.
+          <br>— E se machucar. 
+          <br>— Não me diga que você já namorou algum dos seus amigos e o babaca não soube valorizá-la.
+          <br>Pontuou fingindo desconhecer aquela história.
+          <br>— É... digamos que foi quase isso. Sabe, não dá certo ser amiga, namorada e chefe de uma mesma pessoa. 
+          <br>— Acho que você está errada... 
+          <br>O homem murmurou deslizando seu rosto pelo da mulher, ambos de olhos fechados desfrutavam daquela carícia. Suas respirações ofegantes eram sentidas nas peles um do outro. Aquela dança estava revelando muito mais do que desejos físicos, ela estava expondo os sentimentos que ainda existiam dentro de cada um.
+          <br>— Melendez...
+          <br>— Por favor Limmy, me deixe continuar. Eu... ainda significo algo para você?
+          <br>— Neil, eu acho que você bebeu demais, não está mais falando com sensatez e... 
+          <br>— Audrey, só me responda. Se a resposta for não, eu vou entender. Afinal fui um grande tolo e esperei um ano para dizer que ainda amo você. Continuei amando todos esses meses, te amei no nosso passado, no nosso presente, e segui te amando mesmo sem a perspectiva de um amanhã. Você é a única mulher que faz meu coração disparar, Audrey Lim. É com você que eu quero passar a vida inteira bebendo uísque. Eu quero criar novas memórias com você. Eu quero uma vida toda com você, uma que não seja construída apenas em plantões ou reuniões no San Bonaventure, te ter assim não é o suficiente para mim. Eu quero voltar a me atrasar para o trabalho porque estamos roubando beijos um do outro no meu Tesla.  Eu quero escrever uma nova história com você e não aguentava mais guardar todos esses sentimentos comigo. 
+          <br>Neil declarou. Os olhos castanhos da mulher estavam marejados, hipnotizados pelos dele. Lim sabia que deveria fugir daquele lugar o mais rápido possível, antes que cedesse a tudo aquilo que seu coração sentia. Mas seu corpo queria ficar ali, afinal aquelas foram palavras que ela desejara escutar todos os dias no último, mas elas não haviam chegado até ela. Por isso, a mulher chegou a pensar que Neil não a amara o suficiente para lutar por ela, por eles. Aquelas conclusões a deixaram decepcionada, machucada e tornaram seu objetivo de evitá-lo mais fácil. No entanto, ela continuava amando-o com a mesma intensidade de quando percebeu que estava apaixonada por ele naquela noite no bar. E, eram aqueles sentimentos, que tornavam sua fuga impossível de ser concluída. Portanto, ela continuou ali, escutando tudo que Melendez proferia. 
+          <br>— Tem sido um desafio te encontrar no hospital e não poder te tocar, te abraçar, conversar, te convidar para beber. Eu nunca deixei de te amar como amiga e como mulher também. Os sorrisos que eu entreguei para você, que você causou em mim, jamais conseguirei disponibilizá-los para outra pessoa. Eu sinto muito por ter sido um babaca, por não ter lutado por nós dois, por simplesmente ter deixado você ir, por causa da minha prepotência, da minha arrogância. Não teve um dia que eu não me arrependi de ter deixado você passar por aquela porta. 
+          <br>Desde aquela noite, eu tentei me reconstruir de diversas formas, mas nenhuma foi o suficiente. Algo ou melhor, alguém, sempre continuaria faltando. Você. 
+          <br>Lim, naquela noite, quando você terminou nosso namoro, disse que o amor não era suficiente, e eu fiquei calado, não me posicionei. E desde então não tive um momento de paz nos meus pensamentos, porque eu não poderia ter deixado você ir sem que você tivesse a consciência de que era o suficiente para mim. Eu demorei muito tempo para compreender o que você estava querendo dizer com isso, mas hoje eu entendo que essa frase foi dita como um reflexo da maneira que eu fiz você se sentir, depois de despejar em cima de ti, culpas e irresponsabilidades das quais você não tinha encargo. Se você disse isso, foi por minha causa, porque eu fiz com que não se sentisse suficiente para mim, e mesmo sabendo que me amava, você decidiu ir porque sentiu que não era suficiente. 
+          <br>Eu quero me desculpar por tê-la feito se sentir assim, quero que saiba que você e nosso amor sempre serão suficientes para mim. Me perdoe por enxergar isso tarde demais. Eu não poderia continuar calado, não quero que continue se sentindo assim. Me desculpe por não ter te respeitado como minha chefe e  namorada. Em minha defesa, você sempre soube que eu era um babaca. — Riu numa tentativa de acalmar seu nervosismo, visto que não parava de falar, as palavras não lha faltavam. Situação oposta ao que acontecia com Lim, que ainda não havia se posicionado. Apenas o encarava e... nada. — Me desculpe por não ter te valorizado da maneira que você merecia. Espero que ainda não seja muito tarde para nós dois. Eu ainda te amo tanto quanto antes, e se você continuar sentindo algo por mim, se não tiver se apaixonado por algum outro homem, eu quero saber se alguma parte sua está disposta a me dar uma segunda chance?
+
+          <br>Dito isso, ambos se perderam na troca de olhares que compartilhavam, sequer percebiam que não estavam mais dançando como os outros casais, os dois estavam parados na pista de dança, buscando por um amor que não havia necessidade de ser declarado, apesar de tudo, ele ainda estava ali, enraizado. 
+          <br>    Lim sentiu Melendez apertar suas mãos com mais força, parecia se certificar de que ela não fugiria. O mundo não girava para eles, eram apenas os dois ali, sem orgulho, sem ciúmes, sem insegurança, sem preocupação. Apenas eles e o amor que sentiam um pelo outro.
+          <br>Em seu interior, a alegria se manifestava em Audrey, aparentemente Neil não sabia, mas  ele ainda tinha todas as partes dela. Claro que eles teriam que lidar com algumas mágoas que haviam sido geradas, mas elas não eram maiores do que amor que ela ainda sentia por aquele homem. Pensou nas palavras de Raquel e na história dela com Sérgio, o quanto eles haviam lhe inspirado amor, recomeços...
+          <br>Voltar a se relacionar com Melendez, mesmo sendo sua chefe, era um risco. Mas era um risco que Audrey estava disposta a correr. Ela só queria parar de se sentir culpada e solitária por ter colocado um ponto final no relacionamento dos dois, desejava parar de fugir daquele que estava destinado a ser seu futuro.  
+          <br>Com o coração agitado e a mente confusa, ela finalmente encontrou a coragem que lhe faltara no último ano e se declarou:
+          <br>— Neil, eu não poderia estar apaixonada por outro homem, porque todas as minhas partes ainda amam a mesma pessoa. Um certo cardiologista arrogante e babaca que passou a última década concorrendo comigo até que, certa noite, resolveu me convidar para beber e se apaixonou por mim, da mesma maneira que eu me apaixonei por ele. Pela maneira como ele me cuidava, me amava, me mostrava que tudo bem baixar a guarda e ser vulnerável de vez em quando. Eu me apaixonei pelo meu melhor amigo de longa data, pelo meu maior adversário, pelo homem que me fez perceber o que era o amor de verdade, que me fez voltar a ter vontade de planejar um futuro com alguém. No início eu me assustava com o que estávamos fazendo, eu pensava que nosso relacionamento seria uma idiotice, mas a verdade é que me apaixonar pelo meu colega de trabalho babaca e prepotente foi a tolice mais apaixonante que eu já tive a oportunidade de viver. 
+          <br>— Eu nunca fiquei tão feliz de ser chamado de babaca duas vezes em uma declaração de amor.
+          <br>Foi o que o médico conseguiu dizer antes de sorrir largamente, exibindo seus dentes brancos. Seus sentimentos continuavam sendo correspondidos. Lim ainda o amava. Ele ainda a amava. Isso significava que ainda havia uma chance para a história dos dois. 
+          <br>— Eu nunca fui uma mulher romântica, você sabe. 
+          <br>Audrey constatou sentindo seu corpo fraquejar diante da aproximação de Neil, que deu um passo à frente, ele estava prestes a beijá-la.
+          <br>— Mas sempre será a mulher que eu vou amar. 
+          <br>Declarou por fim, segurando-a pela cintura, encerrando a distância que os separava. As respirações ofegantes de ambos foram a última coisa que sentiram sobre suas peles antes de seus corpos se entregarem a emoção daquele beijo de amor. Seus lábios se tocaram com desejo e saudade. As salivas eram trocadas com um misto de paixão e desespero, havia um ano de beijos perdidos para recuperar.  
+          </p>
+          <br>
+          <br>
+          <p>Com carinho, Tais!</p>
+        </section>
+    </header>
+  </body>
+</html>
